@@ -18,13 +18,6 @@ export default function HomeDashboard() {
           </div>
         </Link>
 
-        <Link href="/gallery">
-          <div className="bg-pink-100 p-6 rounded-2xl shadow hover:bg-pink-200 cursor-pointer transition">
-            <h2 className="text-2xl">📸 Gallery</h2>
-            <p className="text-sm mt-2 text-pink-600">Scroll through memories</p>
-          </div>
-        </Link>
-
         <Link href="/quiz">
           <div className="bg-pink-100 p-6 rounded-2xl shadow hover:bg-pink-200 cursor-pointer transition">
             <h2 className="text-2xl">🧠 Quiz Me</h2>
