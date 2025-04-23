@@ -11,21 +11,21 @@ export default function HomeDashboard() {
       <p className="mb-8 text-lg text-pink-500">Where every click brings you closer to Akon's heart.</p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-xl">
-        <Link href="/love">
+        <Link href="/love/game">
           <div className="bg-pink-100 p-6 rounded-2xl shadow hover:bg-pink-200 cursor-pointer transition">
             <h2 className="text-2xl">💌 Love Letters</h2>
             <p className="text-sm mt-2 text-pink-600">Read Akon’s secret love notes</p>
           </div>
         </Link>
 
-        <Link href="love/quiz">
+        <Link href="/love/quiz">
           <div className="bg-pink-100 p-6 rounded-2xl shadow hover:bg-pink-200 cursor-pointer transition">
             <h2 className="text-2xl">🧠 Quiz Me</h2>
             <p className="text-sm mt-2 text-pink-600">Let’s test your Akon knowledge</p>
           </div>
         </Link>
 
-        <Link href="love/about">
+        <Link href="/love/about">
           <div className="bg-pink-100 p-6 rounded-2xl shadow hover:bg-pink-200 cursor-pointer transition">
             <h2 className="text-2xl">👩‍❤️‍👨 About Us</h2>
             <p className="text-sm mt-2 text-pink-600">Our little love story</p>
