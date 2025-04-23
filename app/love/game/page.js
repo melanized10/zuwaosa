@@ -65,11 +65,7 @@ export default function LoveGame() {
         <link rel="icon" href="/heart.ico" />
       </Head>
 
-      <audio autoPlay loop>
-        <source src="/love-song.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
-
+    
       <h1 className="mb-4">🎯 Akon’s Love Challenge for You, Zuwa 💕</h1>
       <p className="lead">Click a number from 1 to 10 and unlock a surprise 💌</p>
 
