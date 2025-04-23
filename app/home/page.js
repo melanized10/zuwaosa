@@ -18,14 +18,14 @@ export default function HomeDashboard() {
           </div>
         </Link>
 
-        <Link href="/quiz">
+        <Link href="love/quiz">
           <div className="bg-pink-100 p-6 rounded-2xl shadow hover:bg-pink-200 cursor-pointer transition">
             <h2 className="text-2xl">🧠 Quiz Me</h2>
             <p className="text-sm mt-2 text-pink-600">Let’s test your Akon knowledge</p>
           </div>
         </Link>
 
-        <Link href="/about">
+        <Link href="love/about">
           <div className="bg-pink-100 p-6 rounded-2xl shadow hover:bg-pink-200 cursor-pointer transition">
             <h2 className="text-2xl">👩‍❤️‍👨 About Us</h2>
             <p className="text-sm mt-2 text-pink-600">Our little love story</p>
